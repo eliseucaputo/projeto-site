@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "trebuchet MS", Helvetica, sans-serif;
+	background: #FAF0E6;
+}
+
+/* ANIMAÇÕES */
+
+
+@keyframes animacao-fotos {
+	from {
+		color: #DB7093;
+		top: 0;
+		left: 0px;
+		font-size: 1em;
+	}
+
+	to {
+		color: #DB7093;
+		top: 0;
+		left: 0;
+		font-size: 1.1em;
+	}
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: "school";
+	src: url(Schoolwork-Regular.woff);
+}
+
+#area-menu a {
+	font-family: "school";
+	font-size: 2em;
+}
+
+p {
+	text-align: justify;
+}
+
+#area-cabecalho img {
+	height: 150px ;
+}
+
+/* Layout */
+
+h2 {
+	padding: 15px;
+	color: #FFB6C1;
+}
+
+.paragrafo-home {
+	padding: 15px;
+}
+
+#area-cabecalho {
+	background: linear-gradient(to right, #DB7093, #FF69B4);
+	text-align: center;
+}
+
+#area-menu {
+	padding: 15px;
+	margin-top: -55px;
+	min-width: 720px;
+}
+
+#area-procedimentos {
+	width: 85%;
+	margin: 15px auto;
+	background: #fff;
+	min-width: 1020px;
+}
+
+#area-principal {
+	width: 85%; /*920px -> */
+	margin: 0px auto;
+	padding: 15px;
+}
+
+#area-postagem {
+	background: white;
+	width: 100%;
+	min-width: 720px;
+}
+
+img.img-postagem {
+	width: 90%;
+}
+
+#area-final > p {
+	text-align: center;
+	font-size: 0.9em;
+	clear: both;
+}
+
+#menu-lateral {  /*   ****************   */ 
+	width: 19.8%;
+	float: left;
+	min-width: 230px;
+	padding-left: 15px;
+}
+
+a {
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #FFB6C1;
+	background: white;
+	border-radius: 5px;
+	transition: background 0.5s;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px;
+	background: #FFB6C1;
+}
+
+ul a {
+	width: 200px;
+	height: 25px;
+	display: block;
+	text-indent: 20px;
+	line-height: 24px;
+}
+
+
+
+
+
+
+
+/* INÍCIO ÁREA FOTOS */
+
+.area-fotos {   
+	width: 250px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+.area-fotos img {
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.area-fotos p {
+	margin-top: 10px;
+	font-size: 1.2em;
+	text-align: center;
+	position: relative;
+	-webkit-animation: animacao-fotos 3s 0s 99999 alternate;
+	-moz-animation: animacao-fotos 3s 0s 99999 alternate;
+	-o-animation: animacao-fotos 3s 0s 99999 alternate;
+	animation: animacao-fotos 3s 0s 99999 alternate;
+}
+
+
+
+
+
+
+
+
+
+table {
+	width: 60.2%; /*   ***********************   */
+	border-collapse: collapse;
+	float: right;
+	margin-right: 100px;
+}
+
+th, td {
+	padding: 7px;
+}
+
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-align: left;
+	font-size: 90%;
+	border-top: 1px solid #696969;
+	border-bottom: 1px solid #A9A9A9;
+}
+
+tr.espaco {
+	background-color: #D3D3D3;
+}
+
+tr:hover {
+	background-color: #FFB6C1;
+}
+
+
+
+
+/* CONTAO - FORMULÁRIOS */
+
+fieldset {
+	margin: 1em;
+	padding: 1em;
+	background: #f8f8f8;
+	border: 1px solid #ccc;
+}
+
+legend {
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	width: 20em;
+}
+
+textarea {
+	width: 20em;
+	height: 10em;
+}
+
+input.radio {
+	width: auto;
+}
+
+.radio {
+margin-right: 1em;
+}
+
+form #enviar {
+	margin-left: 17px;
+	margin-bottom: 20px;
+	width: 80px;
+	height: 30px;
+}
+
+#comentarios #data {
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+fieldset div #nome {
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+fieldset div #telefone {
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+fieldset div #email {
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+
+
+
+
